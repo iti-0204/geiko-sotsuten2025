@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { MapPin } from "lucide-react";
-import { auto } from "openai/_shims/registry.mjs";
 
 // color
 // ＃f4e869
