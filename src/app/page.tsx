@@ -8,7 +8,7 @@ import { MapPin } from "lucide-react";
 
 export default function Page() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen text-black">
       {/* ヘッダーパターンセクション */}
       <section className="bg-white p-8 h-screen flex justify-center items-center">
         <div className="max-w-4xl mx-auto my-auto">
@@ -30,15 +30,10 @@ export default function Page() {
             <h2 className="text-5xl font-bold mb-8">Veil</h2>
           </div>
           <p className="text-lg leading-relaxed">
-            夏、私たちの学生が生還してきった卒展2022。そのときのテーマは「DIVE」。
-            私たちにとって、思うようにも展示で制作ができなかったため、2年の時の思いで残ってしまうところも、
-            何かをこえるDIVEし、行きたいところまでいけなく悔しい思いがでました。
+            卒業研究や卒業制作を通して未だ見ぬ成果を見つけ出す様を、ベールを上げて曝け出す様子と重ね、このテーマに決定しました。
           </p>
           <p className="text-lg leading-relaxed">
-            そして、時は流れある今期、 卒展2023のテーマは「RISE」。
-            DIVEして導入できた大きな経験・知識・技術を使って
-            これからはもっともっと、それぞれが個人と向き合いながら制作していけるように。。
-            ここを新たで深めあって、それぞれの可能性 どうぞご覧ください。
+            様々な出会いや経験を経た学生生活の集大成として私たちが最後に創り上げる数々の作品をお楽しみください。
           </p>
         </div>
       </section>
@@ -48,7 +43,7 @@ export default function Page() {
         <div className="max-w-2xl mx-auto text-center">
           <p>- Schedule -</p>
           <h2 className="text-3xl font-bold mb-8">開催日時</h2>
-          <p className="text-xl mb-4">2025 2/21(Tue)-2/26(Sun) </p>
+          <p className="text-xl mb-4">2025 2/18(Tue)-2/24(Mon) </p>
           <p>北千種キャンパス 11:00 - 17:00 </p>
           <p>ギャラリー矢田 11:00 - 18:00 </p>
 
@@ -78,7 +73,9 @@ export default function Page() {
                 <MapPin className="mr-2" />
                 北千種キャンパス
               </h3>
-              <p className="text-sm">(情報環境デザイン系展／イノベーション)</p>
+              <p className="text-sm">
+                (情報環境デザイン学科/産業イノベーション学科)
+              </p>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6522.014858963403!2d136.9451600756953!3d35.181367372752824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6003705a45b7e0cd%3A0xcea9a0e7712b9848!2z5ZCN5Y-k5bGL5biC56uL5aSn5a2mIOWMl-WNg-eoruOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1736216034335!5m2!1sja!2sjp"
                 // width="600"
@@ -100,7 +97,7 @@ export default function Page() {
                 <MapPin className="mr-2" />
                 市民ギャラリー矢田
               </h3>
-              <p className="text-sm">(情報環境デザイン)</p>
+              <p className="text-sm">(建築都市デザイン学科)</p>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3260.6924561483816!2d136.94420717569577!3d35.189217072750026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600370538fd8574f%3A0x95d91f5fb18f6405!2z5biC5rCR44Ku44Oj44Op44Oq44O8!5e0!3m2!1sja!2sjp!4v1736216925381!5m2!1sja!2sjp"
                 style={{
