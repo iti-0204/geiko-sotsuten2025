@@ -23,7 +23,7 @@ export default function Page() {
       </section>
 
       {/* テーマセクション */}
-      <section className="bg-yellow-400 py-16 px-8">
+      <section className="bg-[#f4e869] py-16 px-8">
         <div className="max-w-2xl mx-auto text-center space-y-8">
           <div>
             <p>- Theme -</p>
@@ -44,7 +44,7 @@ export default function Page() {
       </section>
 
       {/* スケジュールセクション */}
-      <section className="bg-zinc-700 py-16 px-8 text-white">
+      <section className="bg-[#dd9c89] py-16 px-8 text-white">
         <div className="max-w-2xl mx-auto text-center">
           <p>- Schedule -</p>
           <h2 className="text-3xl font-bold mb-8">開催日時</h2>
@@ -55,7 +55,7 @@ export default function Page() {
           {/* <div className="space-y-4 text-left">
             <p className="text-sm">
               ＊情報環境デザイン科目・大学院総合工学研究科情報環境デザイン領域の下記の研究室の展示は、
-              都合により以下の日程でごらんいただけます。予めご了承ください。
+              都合により以下の日程でごらんいただけます。予めご了承ください。-
             </p>
             <ul className="space-y-2">
               <li>・奥山、中川研：2/23〜2/25</li>
@@ -67,7 +67,7 @@ export default function Page() {
       </section>
 
       {/* 会場セクション */}
-      <section className="bg-yellow-400 py-16 px-8">
+      <section className="bg-[#f4e869] py-16 px-8">
         <div className="max-w-2xl mx-auto text-center">
           <p>- Location -</p>
           <h2 className="text-3xl font-bold mb-12">会場</h2>
