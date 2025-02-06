@@ -117,7 +117,7 @@ export default function Page() {
 
       {/* フッター */}
       <footer className="bg-zinc-700 py-8 px-4 text-center text-white">
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <Image
             src="instagramIcon.svg"
             alt="インスタアイコン"
@@ -132,7 +132,7 @@ export default function Page() {
             height={50}
             // className="max-w-md mx-auto shadow-lg"
           />
-        </div>
+        </div> */}
         <p className="text-sm">&copy; Copyright sotsuten2025</p>
       </footer>
     </main>
